@@ -1,0 +1,13 @@
+.titleTop {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+.bodyDoc {
+	background-color: black;
+}
+#timeLeft {
+	text-align: center;
+	color: white;
+}
