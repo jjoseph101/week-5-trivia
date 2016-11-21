@@ -1,10 +1,13 @@
 .bodyDoc {
 	background-color: black;
+	font-family: "lucida console", sans-serif;
+	color:lime;
+	text-align: left;
+	margin-left: 10%;
 }
 
 .main {
-	color: white;
-	text-align: center;
+	color: lime;
 	display: block;
 	margin: 0 auto;
 }
@@ -12,49 +15,19 @@
 .start {
 	display: block;
 	margin: 0 auto;
-	color: black;
+	color: lime;
+	background-color: grey;
 }
 
 .titleTop {
-	text-align: center;
-	color: white;
-	font-size: 50px;
-	display: block;
-	margin: 10%;
+	text-align: left;
+	color: lime;
+	font-size: 30px;
 }
 
 #timeLeft {
 	display: block;
 	margin: 0 auto;
-	text-align: center;
-	color: white;
+	color: lime;
 
 }
-
-/*.answers {
-	color: white;
-}
-
-.bodyDoc {
-	background-color: black;
-}
-
-.qa {
-	color: white;
-	margin-left: 10%;
-}
-
-.questions {
-	color: white;
-}
-
-.titleTop {
-	text-align: center;
-	color: white;
-	font-size: 30px;
-}
-
-#timeLeft {
-	text-align: center;
-	color: white;
-}*/
