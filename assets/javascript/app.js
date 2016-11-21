@@ -94,7 +94,7 @@ $(".start").on('click', function() {
 	function displayQs () {
 		for (i = 0; i < questionsAnswers.qAs.length; i++) {
 			$(".main").append("<div class='form-group'>");
-			$(".main").append("<BR>"+questionsAnswers.qAs[i].question+"<BR><BR>"); //add question
+			$(".main").append("<BR>"+[i+1]+". "+questionsAnswers.qAs[i].question+"<BR><BR>"); //add question
 			$(".main").append("<div class='col-lg-10 answers'>");
 			displayAs ();
 			$(".main").append("</div>");
